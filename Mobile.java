@@ -1,18 +1,19 @@
-package week1.day1;
+package week2.day2;
 
 public class Mobile {
-   public void sendSms() {
-	   System.out.println("From Oneplus");
-	   	
-	}
-   public void makeCall() {
-	   System.out.println("Calling my friend");
-   }
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-   Mobile  oneplus=new Mobile();
-   oneplus.sendSms();
-   oneplus.makeCall();
+    
+		String mobileBrandName="Oneplus";
+		char mobileLogo='O';
+		short noOfMobilePiece= 10;
+		int modelNumber=22;
+		long mobileImeNumber= 125869645563463L;
+		float mobilePrice= 50000.89f;
+		boolean isDamaged= false;
+		
+		System.out.println("Mobile Brand Name is: "+mobileBrandName+"\n"+"MobileLogo: "+mobileLogo+"\n"+"No of Mobile piece: "+noOfMobilePiece+"\n"+"ModelNumber: "+modelNumber+"\n"+"Mobile IME Number: "+ mobileImeNumber+"\n"+"Mobile Price: "+mobilePrice+"\n"+"Is Mobile Damaged: "+isDamaged);
 	}
 
 }
