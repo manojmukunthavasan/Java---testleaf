@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test" thread-count = "5" parallel="tests" >
+    <parameter name="browser"  value = "chrome" />
+    <parameter name="url" value = "http://leaftaps.com/opentaps/control/main" />
+      <parameter name="username" value = "Demosalesmanager" />
+        <parameter name="password" value = "crmsfa" />
+    <classes>
+      <class name="week4.day4.ArchitectCertificate"/>
+      <class name="week4.day4.AdminCertification"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
